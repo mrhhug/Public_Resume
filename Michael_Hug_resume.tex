@@ -1,0 +1,225 @@
+\documentclass{book}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[paperheight=11in,paperwidth=8.5in,margin=1in]{geometry}
+
+\renewcommand{\tabcolsep}{0pt}
+
+\setlength{\parindent}{0pt}
+
+\newenvironment{myitemize}
+{ \begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}     }
+{ \end{itemize}                  } 
+
+\pagenumbering{gobble}
+
+\usepackage{multirow}
+
+\usepackage{tabularx}
+
+\usepackage{fix-cm}
+
+\begin{document}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\begin{tabularx}{\textwidth}{Xr}
+
+\multirow{+6}{*}
+	{\fontsize{32}{38.4}\selectfont {\bfseries Michael Hug}} \\
+	& \scriptsize Alpharetta, Ga 30009 \\
+	& \scriptsize mrhhug@gmail.com \\
+	& \scriptsize (484) 797-6393 \\
+
+\end{tabularx}
+
+\enspace
+
+\underline{\Large {\bfseries Education:}}
+
+\enspace
+
+\begin{tabular}{L{3in}L{1.75in}R{1.75in}}
+
+	{\large {\bfseries Kennesaw State University}} & Kennesaw, Ga & December 2014 \\% [10ex]
+
+\end{tabular}
+
+\begin{myitemize}
+
+	\item Bachelor of Science, Computer Science 
+
+\end{myitemize}
+
+\underline{\Large {\bfseries Related Experience:}}
+
+\enspace
+
+\begin{tabular}{L{3in}L{1.75in}R{1.75in}}
+
+	{\large {\bfseries Fiserv Inc.}} & Alpharetta, Ga  & May 2014 - Present \\
+	
+\end{tabular}
+
+	\begin{myitemize}
+		\item VMWare / Linux Operations - Software Development Engineer 2
+
+			\begin{myitemize}
+
+					\item Developed a replacement for VUM
+
+			\end{myitemize}	
+
+		\item VMWare / Linux Operations - Associate Engineer 
+
+			\begin{myitemize}
+
+					\item Developed a VM state and location identifier
+
+			\end{myitemize}	
+
+		\item VMWare / Linux Operations - Intern 
+
+			\begin{myitemize}
+
+					\item Built and executed queries and reports using the vShpere Java / REST API
+
+			\end{myitemize}	
+
+		\end{myitemize}	
+		
+	\end{myitemize}
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+
+	{\large {\bfseries ACM International Collegiate Programming Contest}} & Nov 2013, Nov 2014 \\	
+
+\end{tabular}
+
+	\begin{myitemize}
+		\item Southeastern Regional
+	\end{myitemize}
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+
+	{\large {\bfseries ACM Student Chapter}} & Nov 2013 - Dec 2014 \\
+
+\end{tabular}
+
+	\begin{myitemize}
+		\item Special Projects Manager, Android / Java applications 
+	\end{myitemize}
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+
+	{\large {\bfseries Peer-Mentor Program / Student Assistant}} & Spring 2013 - Dec 2014 \\
+
+\end{tabular}
+
+	\begin{myitemize}
+		\item Java, C, Lisp, Python, PHP, Ada
+		\item Outstanding Peer Mentor Award 
+	\end{myitemize} 
+
+
+\begin{tabular}{L{3in}L{1.75in}R{1.75in}}
+
+	 {\large {\bfseries Trask Management Group}} & Rome, Ga & 2010-2012 \\
+
+\end{tabular}
+
+\begin{myitemize}
+	
+	\item Admin Windows / Linux Servers
+
+	\begin{myitemize}
+
+		\item Bash, Samba, cron, dd, rsync, Group Policy, IIS, Centralized virus / hardware monitors
+
+	\end{myitemize}
+		
+	\item Hardware management
+
+	\begin{myitemize}
+
+		\item Switches, Routers, Firewalls, VPN, Wifi APs, T1 modems, VOIP phone systems, Cable management
+
+	\end{myitemize}
+
+\end{myitemize}
+
+\begin{tabular}{L{3in}L{1.75in}R{1.75in}}
+
+	 {\large {\bfseries Alliance Computers Inc.}} & Harrisburg, Pa & 2006-2008 \\
+
+\end{tabular}
+
+\begin{myitemize}
+	
+	\item In-depth Windows / Linux personal computer experience
+	\item PC / LCD repair and troubleshooting
+	\item Home network setup / diagnostic
+
+\end{myitemize}
+
+\underline{\Large {\bfseries Additional Activities:}}
+
+\enspace
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+
+	{\large {\bfseries FunInATL.com}} & Since 2016 \\
+
+\end{tabular}
+
+	\vspace{-\topsep}
+	\begin{myitemize}
+
+		\item Java / logic responsibilities
+
+	\end{myitemize} 
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+
+	{\large {\bfseries KSU Computer Science Poster Session}} & Since 2015 \\
+
+\end{tabular}
+
+	\vspace{-\topsep}
+	\begin{myitemize}
+
+		\item Standing Judge
+
+	\end{myitemize} 
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+
+	{\large {\bfseries Coca-Cola Hack-a-thon}} & June 2016 \\
+
+\end{tabular}
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+
+	{\large {\bfseries VMware Hack-a-thon}} & September 2015 \\
+
+\end{tabular}
+
+	\vspace{-\topsep}
+	\begin{myitemize}
+		\item Third Place 
+	\end{myitemize} 
+
+
+\begin{tabular}{L{4.75in}R{1.75in}}
+	
+	{\large {\bfseries Tough Mudder}} & May 2014 \\
+
+\end{tabular}
+
+\end{document}
